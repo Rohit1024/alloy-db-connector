@@ -12,7 +12,7 @@ Make sure AlloyDB databse flag : alloydb.iam_authentication enabled and follow [
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`INSTANCE_CONNECTION_NAME` = "{PROJECT_ID}:{REGION}:{INSTANCE_NAME}"
+`INSTANCE_CONNECTION_NAME` = "projects/{PROJECT_ID}/locations/us-east4/clusters/alloydb-connector/instances/alloy-db-con"
 
 `DB_USER` = "alloydb-client-service-account@{PROJECT_ID}.iam"
 
